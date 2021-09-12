@@ -5,3 +5,22 @@ body {
     font-family: "poppins";
     text-align: center;
 }
+
+.navbar {
+    display: none;
+}
+
+.top h4 {
+    color: #FF7676;
+    /* font-size: 31px; */
+    margin-top: .6em;
+    margin-bottom: 0;
+}
+
+.top p {
+    color: white;
+    font-size: .5em;
+    font-weight: normal;
+    margin-top: 0;
+}
+
