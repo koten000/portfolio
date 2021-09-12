@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
+:root {
+    --primary-color: #FF7676;
+  }
+
 body {
     background: url("media/cool-background.png");
     font-family: "poppins";
@@ -11,7 +15,7 @@ body {
 }
 
 .top h4 {
-    color: #FF7676;
+    color: var(--primary-color);
     margin-top: .6em;
     margin-bottom: 0;
 }
@@ -31,7 +35,7 @@ h1 {
 
 button {
     color: white;
-    background: #FF7676;
+    background: var(--primary-color);
     width: 45%;
     height: 3em;
     border: 0;
@@ -39,3 +43,4 @@ button {
     font-weight: bold;
     font-size: 1em;
 }
+
