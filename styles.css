@@ -108,8 +108,8 @@ button {
     h1 {
         font-size: 2em;
         width: 50%;
-        padding-left: 1rem;
-        margin: 3em 1em 1em 12%;
+        padding: 1rem;
+        margin: 2em 1em 1em 12%;
     }
 
     button {
