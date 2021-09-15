@@ -7,20 +7,6 @@
 body {
     background: url("media/cool-background.png");
     font-family: "poppins";
-    text-align: center;
-}
-
-.navbar {
-    display: none;
-}
-
-.top {
-    display: grid;
-    grid-template-columns: 10% auto 10%;
-}
-
-.logo {
-    grid-column: 2 / span 1;
 }
 
 .top h4 {
@@ -34,11 +20,6 @@ body {
     font-size: .5em;
     font-weight: normal;
     margin-top: 0;
-}
-
-img {
-    width: 25px;
-    margin: auto;
 }
 
 h1 {
@@ -56,4 +37,42 @@ button {
     border-radius: 6em;
     font-weight: bold;
     font-size: 1em;
+}
+
+@media only screen and (max-width: 625px) {
+    body {
+        text-align: center;
+    }
+
+    .navbar {
+    display: none;
+    }
+
+    .top {
+        display: grid;
+        grid-template-columns: 10% auto 10%;
+    }
+
+    .logo {
+        grid-column: 2 / span 1;
+    }
+
+    img {
+        width: 25px;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 625px) {
+    .navbar {
+        display: inline;
+    }
+
+    img {
+        display: none;
+    }
+
+    .navbar li {
+        display: inline;
+    }
 }
