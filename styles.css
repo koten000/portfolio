@@ -65,6 +65,19 @@ button {
     img:hover {
         cursor: pointer;
     }
+
+    .displayNavBar {
+        background-color: white;
+        width: 100%;
+    }
+
+    .displayTop {
+        display: flex;
+    }
+
+    .displayLi {
+        display: inline;
+    }
 }
 
 @media only screen and (min-width: 980px) {
